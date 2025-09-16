@@ -1,0 +1,18 @@
+ul {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(252, 159, 252);
+}
+
+a {
+    display: block;
+    color: rgb(87, 11, 84);
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{
+    background-color:rgb(253, 88, 253);
+    color: rgb(176, 11, 11);
+    text-decoration: none;
+}
