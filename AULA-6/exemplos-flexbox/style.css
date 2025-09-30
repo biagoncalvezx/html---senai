@@ -1,0 +1,169 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* ativação do flex para todos os containers */
+/* container flex e itens flex */
+.container-flex {
+    display: flex;
+    background-color: purple;
+    gap: 10px;
+}
+
+.item-flex{
+    background-color: orange;
+    padding: 20px;
+}
+
+.direcao-linha{
+    flex-direction: row;
+}
+
+.direcao-coluna {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.justificar-inicio{
+    justify-content: flex-start;
+}
+
+.justificar-fim {
+    justify-content: end;
+}
+
+.justificar-centro{
+    justify-content: center;
+}
+
+.justificar-space-between{
+    justify-content: space-between;
+}
+
+.justificar-space-around{
+    justify-content: space-around;
+}
+
+.justificar-space-evenly{
+    justify-content: space-evenly;
+}
+
+.alinhar-items .container-flex{
+    height: 300px;
+}
+
+.alinhar-stretch{
+    align-items: stretch;
+}
+
+.alinhar-inicio{
+    align-items: start;
+}
+
+.alinhar-fim{
+    align-items: end;
+}
+
+.alinhar-centro{
+    align-items: center;
+}
+
+.alinhar-baseline{
+    align-items: baseline;
+}
+
+.alinhar-conteudo{
+    align-content: space-around;
+    height: 600px;
+}
+
+.alinhar-conteudo .caixa{
+    flex: 0 0 30%;
+}
+
+
+.ordem1{
+    order: 1;
+}
+
+.ordem2{
+    order: 2;
+}
+
+.ordem3{
+    order: 3;
+}
+
+.exemplo-grow .item.flex{
+    flex-basis: 100px;
+}
+
+.crescer1 {
+    flex-grow: 1;
+
+}
+
+.crescer2 {
+    flex-grow: 2;
+}
+
+.alinhar-items-individuais .container-flex{
+    height: 300px;
+}
+
+.self-inicio {
+    align-self: flex-start;
+}
+
+.self-centro{
+    align-self: center;
+}
+
+.self-fim{
+    align-self: end;
+}
+
+.menu-nav{
+    background-color: rgb(255, 155, 197);
+    padding: 14px;
+    text-align: center;
+
+}
+
+a{
+    color: rgb(165, 0, 118);
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+ 
+}
+
+.responsivo {
+    flex-wrap: wrap;
+}
